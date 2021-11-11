@@ -8,7 +8,7 @@ namespace do_4
         {
             double x, y, max, n; // переменные
             x = -2; max = 0; n = 0; // начальное значение
-            
+
             do
             {
                 if (x == 0)

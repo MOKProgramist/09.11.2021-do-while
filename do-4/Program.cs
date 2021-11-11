@@ -6,8 +6,8 @@ namespace do_4
     {
         static void Main(string[] args)
         {
-            double x, y, y_max, x_max, n; // переменные
-            x = -2; x_max = 0; y_max = 0; n = 0; // начальное значение
+            double x, y, max, n; // переменные
+            x = -2; max = 0; n = 0; // начальное значение
             
             do
             {
@@ -18,7 +18,7 @@ namespace do_4
                 else
                 {
                     y = (((x * 2) + 5) / (2 * x)); // функция 
-                    y_max = y > y_max ? y : y_max; // проверяем максимум
+                    max = y > max ? y : max; // проверяем максимум
 
                     if (y % 2 == 0 && y % 3 == 0) n += 1; // четность на 2 и 3
 
